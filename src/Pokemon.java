@@ -21,6 +21,10 @@ public Pokemon(String name, int level, int hp, int xp, String yell) {
     this.yell = yell;
 }
 
+public void chargingSound(){
+    System.out.println(getName() + " is charging...");
+}
+
 public String getName() {
     return name;
 }
